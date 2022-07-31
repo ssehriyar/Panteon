@@ -3661,6 +3661,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963043459 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3483359066219620796, guid: 64d6e265646f39e4e93a6bbc1898d750, type: 3}
+  m_PrefabInstance: {fileID: 3483359065345636961}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f5239d85c8b324eb4d6620834a0727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1984188179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4799,6 +4810,22 @@ PrefabInstance:
     - target: {fileID: 5273279679699421237, guid: c6dbdbf5eb9473a48a8836540b36740e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946650312777680167, guid: c6dbdbf5eb9473a48a8836540b36740e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1963043459}
+    - target: {fileID: 5946650312777680167, guid: c6dbdbf5eb9473a48a8836540b36740e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946650312777680167, guid: c6dbdbf5eb9473a48a8836540b36740e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: panteon.GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946650312777680167, guid: c6dbdbf5eb9473a48a8836540b36740e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6dbdbf5eb9473a48a8836540b36740e, type: 3}
