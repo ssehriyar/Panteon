@@ -45,7 +45,6 @@ namespace panteon
 		{
 			if (other.GetComponent<Ending>())
 			{
-				Debug.Log("Ending");
 				GameStateManager.SetState(GameState.Draw);
 			}
 		}

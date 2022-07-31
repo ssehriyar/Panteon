@@ -7,10 +7,9 @@ namespace panteon
 	{
 		public static GroundCheck Instance;
 
+		private bool _isGrounded;
 		private RaycastHit _hit;
 		private Coroutine _coroutine;
-
-		private bool _isGrounded;
 		[SerializeField] private float _rayDistance = 0.2f;
 		[SerializeField] private LayerMask _groundlayerMask;
 
@@ -30,7 +29,7 @@ namespace panteon
 
 		private IEnumerator Falling()
 		{
-			yield return new WaitForSeconds(2f);
+			yield return new WaitForSeconds(1.5f);
 			if (!_isGrounded)
 			{
 				StopCoroutine(_coroutine);

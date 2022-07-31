@@ -16,12 +16,6 @@ namespace panteon
 			Instance = this;
 		}
 
-		private void Update()
-		{
-			Debug.DrawLine(transform.position, new Vector3(transform.position.x + _minRange, transform.position.y, transform.position.z), Color.red);
-			Debug.DrawLine(transform.position, new Vector3(transform.position.x + _maxRange, transform.position.y, transform.position.z), Color.red);
-		}
-
 		public Vector3 GetRandomDestination(int level)
 		{
 			Vector3 pos;

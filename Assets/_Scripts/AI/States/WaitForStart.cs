@@ -17,7 +17,6 @@ namespace panteon
 
 		public void OnEnter()
 		{
-			Debug.Log("EnemyIdle");
 			_animator.SetTrigger(EnemyIdle);
 			GameStateManager.OnGameStateChanged += StateChange;
 		}

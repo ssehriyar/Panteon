@@ -3,6 +3,7 @@
 public class Billboard : MonoBehaviour
 {
 	private Camera _cam;
+
 	void Start()
 	{
 		_cam = Camera.main;

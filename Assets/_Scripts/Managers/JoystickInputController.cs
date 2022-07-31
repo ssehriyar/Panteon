@@ -9,15 +9,13 @@ namespace panteon
 
 		[SerializeField] private Joystick _joystick;
 
-		private void Start() => _joystick = FindObjectOfType<Joystick>();
+		private void Start() => _joystick = GetComponent<Joystick>();
 
 		private void FixedUpdate() => JoystickActionInvoke();
 
 		private void JoystickActionInvoke()
 		{
-			//if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)
 			OnJoystickInputChange?.Invoke(_joystick.Direction);
-			//Debug.Log(_joystick.Direction);
 		}
 	}
 }

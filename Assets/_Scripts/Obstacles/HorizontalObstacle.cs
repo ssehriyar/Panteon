@@ -8,7 +8,6 @@ namespace panteon
 		private int _currentIndex;
 		private Vector3 _targetPosition;
 		[SerializeField] private float _speed;
-		//[SerializeField] private Transform _model;
 		[SerializeField] private List<Transform> _patrolPoints;
 
 		private void Start()
